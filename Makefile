@@ -18,7 +18,7 @@ list:	## List of courses
 	@./config/script/list-courses
 
 prepare:	## Generate directories structure
-	@./config/script/prepare
+	@"./config/script/prepare"
 	@touch prepare
 
 submodule:	## Update submules
